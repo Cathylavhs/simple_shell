@@ -3,7 +3,7 @@
 /**
  * get_program_path - Get the full path of a program in the PATH.
  * @prg_name: The name of the program.
- * 
+ *
  * Return: The full path of the program or NULL if not found in the PATH.
  */
 char *get_program_path(char *prg_name)
@@ -64,7 +64,7 @@ char *get_program_path(char *prg_name)
  * @shname: The name of the shell.
  * @is_interactive: Flag to indicate if the
  * shell is running in interactive mode.
- * 
+ *
  * Return: 0 on success.
  */
 int run_shell(char *shname, int is_interactive)
@@ -128,7 +128,7 @@ int run_shell(char *shname, int is_interactive)
  * @lines: Array of strings representing input lines.
  * @lines_count: The number of input lines.
  * @is_interactive: Flag to indicate if the shell is running in interactive mode.
- * 
+ *
  * Return: The exit status of the last executed command.
  */
 int interpret_line(char *shname, char **lines, int lines_count, int is_interactive)
@@ -204,7 +204,7 @@ int interpret_line(char *shname, char **lines, int lines_count, int is_interacti
  * @shname: The name of the shell.
  * @is_interactive: Flag to indicate if the shell is running in interactive mode.
  * @is_exist: Flag to indicate if the program exists in the PATH.
- * 
+ *
  * Return: 0 on success, -1 on failure.
  */
 int execute_program(char **argv, char *shname, int is_interactive, int is_exist)

@@ -2,7 +2,7 @@
 
 /**
  * print_envs - Print environment variables.
- * 
+ *
  * Return: 1 on success, -1 on failure.
  */
 int print_envs(void)
@@ -32,7 +32,7 @@ void exit_shell(int exit_status, char **argv)
 /**
  * is_alias - Check if the command is an alias.
  * @argv: Array of strings representing the command and its arguments.
- * 
+ *
  * Return: 1 if the command is an alias, 0 otherwise.
  */
 int is_alias(char **argv)
